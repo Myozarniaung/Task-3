@@ -1,0 +1,9 @@
+apiVersion: configuration.konghq.com/v1
+kind: kongPlugin
+metadata:
+  name: twelve-per-min
+config:
+  minute: 12
+  policy: local
+plugin: rate-limiting
+  
